@@ -2,8 +2,8 @@ POST http://localhost:3333/api/links
 Content-Type: application/json
 
 {
-    "code": "TEST",
-    "url": "https://www.linkedin.com/in/devsamuelsouza/"
+    "code": "rocket",
+    "url": "https://app.rocketseat.com.br/home"
 }
 
 ###
@@ -12,4 +12,7 @@ GET http://localhost:3333/api/links
 
 ###
 
-GET http://localhost:3333/smkdev
+GET http://localhost:3333/TEST
+###
+
+GET http://localhost:3333/api/metrics
